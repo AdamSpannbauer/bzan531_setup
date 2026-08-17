@@ -44,11 +44,7 @@ If you are on macOS and use Homebrew:
 brew install glpk
 ```
 
-If you are on Windows, download GLPK for Windows here:
-
-https://winglpk.sourceforge.net/
-
-After downloading it, make sure `glpsol.exe` is available from the terminal where you run Python.
+TODO: Add Windows GLPK installation instructions.
 
 If you are Ian Allish and use Linux, this should be `yum` / `apt-get` / etc. installable.
 
