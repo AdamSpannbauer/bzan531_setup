@@ -44,7 +44,19 @@ If you are on macOS and use Homebrew:
 brew install glpk
 ```
 
-TODO: Add Windows GLPK installation instructions.
+If you are on Windows:
+
+There are many ways to install GLPK on Windows; using Chocolatey seems to be one of the more straightforward approaches that works.
+
+1. Install Chocolatey from https://chocolatey.org/install. You do not need to enter an email address; the newsletter signup is optional.
+2. Open PowerShell or Command Prompt as Administrator.
+3. Install GLPK:
+
+```powershell
+choco install glpk
+```
+
+These Windows steps were tested by Matthew Malone. Direct all questions, complaints, and praise to Matthew at mmalon45@vols.utk.edu.
 
 If you are Ian Allish and use Linux, this should be `yum` / `apt-get` / etc. installable.
 
